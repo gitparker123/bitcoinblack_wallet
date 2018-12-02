@@ -1,0 +1,15 @@
+span {
+  &:first-child,
+  &:last-child {
+    font-weight: bold;
+    color:yellow;
+  }
+
+  // &:first-child {
+  //   color: $light-blue;
+  // }
+
+  // &:last-child {
+  //   color: $orange;
+  // }
+}

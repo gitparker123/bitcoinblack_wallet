@@ -1,0 +1,72 @@
+{
+    "version": "2",
+    "rpc_enable": "true",
+    "rpc": {
+        "address": "::1",
+        "port": "7079",
+        "enable_control": "true",
+        "frontier_request_limit": "16384",
+        "chain_request_limit": "16384",
+        "max_json_depth": "20"
+    },
+    "node": {
+        "version": "14",
+        "peering_port": "7078",
+        "bootstrap_fraction_numerator": "1",
+        "receive_minimum": "10000000000000000",
+        "logging": {
+            "version": "4",
+            "ledger": "false",
+            "ledger_duplicate": "false",
+            "vote": "false",
+            "network": "true",
+            "network_message": "false",
+            "network_publish": "false",
+            "network_packet": "false",
+            "network_keepalive": "false",
+            "network_node_id_handshake": "false",
+            "node_lifetime_tracing": "false",
+            "insufficient_work": "true",
+            "log_rpc": "true",
+            "bulk_pull": "false",
+            "work_generation_time": "true",
+            "log_to_cerr": "false",
+            "max_size": "16777216",
+            "rotation_size": "4194304",
+            "flush": "true"
+        },
+        "work_peers": "",
+        "preconfigured_peers": [
+            "18.233.201.235"
+        ],
+        "preconfigured_representatives": [
+            "bcb_3k6oh3awghatyr7yhccn8mhqbtu38hawtzx4u8ttx4nixgakoa8nir56qo6o",
+            "bcb_3ybc5t83n47w7p9cms98hem385ymo7849xw11nguhumxfwtqbnxy9qgffbwk",
+            "bcb_3i7nixjiuyg7hj7jfuezgxyeaaxzs3s145in6ech9po59wtmd5jgjwizm4hw",
+            "bcb_1p3jqay6yxiuazxbcbpt9zwm8ei48ju9r7s9gk4gadwq38euuqyw5xspxo1b",
+            "bcb_3g31i6xj3hw9c8maqeot7c3tocmotztur7xb88bbqr8ri1xxop6sehd5oq7j",
+            "bcb_116gp5yerqq9uxum5hki1t839ynrhab33k5j61hcaaumsiubaruyt1wu6ryk",
+            "bcb_3nx5c59xb6pczqpthmfmbst1x3ffar89rynaaufbzb8sq737qeuew3sqkfb4",
+            "bcb_113tasy4gdxr1fjninmrob9i7na7s9rn64nyzb9u6n9dskki3ug9wsy1u6wj"
+        ],
+        "online_weight_minimum": "600000000000000000000000000000",
+        "online_weight_quorum": "50",
+        "password_fanout": "1024",
+        "io_threads": "12",
+        "work_threads": "12",
+        "enable_voting": "true",
+        "bootstrap_connections": "4",
+        "bootstrap_connections_max": "64",
+        "callback_address": "",
+        "callback_port": "0",
+        "callback_target": "",
+        "lmdb_max_dbs": "128",
+        "generate_hash_votes_at": "1535760000"
+    },
+    "opencl_enable": "false",
+    "opencl": {
+        "platform": "0",
+        "device": "0",
+        "threads": "1048576"
+    }
+}
